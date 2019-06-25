@@ -1,0 +1,10 @@
+@media only screen and (max-width: 479px)
+{
+	.fs_logo_full {
+		display: none;
+	}
+
+	.fs_logo {
+		display: inline-block;
+	}
+}
