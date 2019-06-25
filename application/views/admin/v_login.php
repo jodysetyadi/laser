@@ -29,7 +29,7 @@
             <div class="auto-form-wrapper">
               <form action="<?= base_url('hangar/admin/Login/check') ?>" method="POST">
                 <div class="form-group text-center">
-                  <img width="240px" src="<?= base_url('asset/fulllogofs.png') ?>" alt="">
+                  <h2>L A S E R</h2>
                 </div>
                 <hr>
                 <div class="form-group">

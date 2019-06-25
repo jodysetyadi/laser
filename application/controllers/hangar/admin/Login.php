@@ -14,8 +14,8 @@ class Login extends CI_Controller {
 			'username' => $post['username']
 		])->row();
 
-		$check_pass = password_verify($post['password'], $admin->password);
-		if( $check_pass ) {
+		// $check_pass = password_verify($post['password'], $admin->password);
+		if( $post['password'] == $admin->password ) {
 			$this->session->set_userdata('loged_in', true);
 			$this->session->set_userdata('id_admin', $admin->id_admin);
 			$this->session->set_userdata('nm_admin', $admin->nm_admin);

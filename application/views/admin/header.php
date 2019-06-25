@@ -25,12 +25,12 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand brand-logo" href="<?= base_url() ?>">
+        <!-- <a class="navbar-brand brand-logo" href="<?= base_url() ?>">
           <img src="<?= base_url() ?>asset/fulllogofs.png" alt="logo" />
         </a>
         <a class="navbar-brand brand-logo-mini" href="<?= base_url() ?>">
           <img src="<?= base_url() ?>asset/logofs.png" width="100px" height="100px" alt="logo" />
-        </a>
+        </a> -->
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">

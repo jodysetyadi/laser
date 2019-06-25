@@ -577,7 +577,7 @@ class Master extends CI_Controller
 
 	function changePass()
 	{
-		$pass =  password_hash($this->input->post('password'), PASSWORD_DEFAULT);
+		$pass =  $this->input->post('password');
 
 		if ($this->db->update('admin', ['password' => $pass], ['id_admin' => $this->session->userdata('id_admin')])) {
 			echo "success";
